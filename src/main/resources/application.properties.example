@@ -1,0 +1,16 @@
+# Configuración de Firebase Firestore
+firebase.credentials.path=src/main/resources/key.JSON
+firebase.database.url=https://test2024-6eea1-default-rtdb.firebaseio.com
+
+# Configuración de logging
+logging.level.com.mycompany.firestoretest=INFO
+logging.level.com.google.firebase=WARN
+logging.level.com.google.cloud=WARN
+
+# Configuración de la aplicación
+app.collection.default=users
+app.document.default=user1
+
+# Configuración de timeouts (en milisegundos)
+firestore.timeout.read=30000
+firestore.timeout.write=30000 

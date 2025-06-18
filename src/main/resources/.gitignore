@@ -1,0 +1,13 @@
+# Archivos de credenciales de Firebase
+*.json
+key.JSON
+service-account.json
+firebase-credentials.json
+
+# Archivos de configuración local
+application-local.properties
+config-local.json
+
+# Archivos temporales
+*.tmp
+*.temp 
